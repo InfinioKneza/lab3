@@ -8,7 +8,6 @@ class MonstersController < ApplicationController
   end
 
   def destroy
-
     @monster.destroy
     redirect_to monsters_path, :notice => "Se ha borrado el monstruo"
   end
