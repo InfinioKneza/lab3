@@ -1,4 +1,2 @@
-<h1>Lista de monstruos </h1>
-<% @monster.each do |monster| %>
-    Monstruo: <%= monster.description %>
-<% end %>
+<h1> <%= @monster.name %> </h1>
+<%= @monster.description %>
