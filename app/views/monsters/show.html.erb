@@ -1,1 +1,4 @@
-<%# Update me %><%= @monster.inspect %>
+<h1>Lista de monstruos </h1>
+<% @monster.each do |monster| %>
+    Monstruo: <%= monster.description %>
+<% end %>
