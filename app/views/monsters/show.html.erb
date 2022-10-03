@@ -4,7 +4,7 @@
      <div class="col-sm">
         <%= @monster.description %>
         <br> </br>
-        <%= button_to 'Eliminar', @monster , method: :delete %>
+        <button class="delete">Eliminar</button>
     </div>
     <div class="col-sm">
     <% Tweet.all.each do |tweet| %>
